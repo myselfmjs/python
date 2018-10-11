@@ -34,7 +34,7 @@ def craw(downloader, parser, output, root_url):
     start_time = datetime.now()
 
     # 歌单页数(单页有35个歌单，现在共有41页歌单)
-    page_count = 10
+    page_count = 42
     # 歌单所在页面初始url
     page_url = 'http://music.163.com/discover/playlist/?order=hot&cat=%E5%85%A8%E9%83%A8&limit=35&offset='
 
